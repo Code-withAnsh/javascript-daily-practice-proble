@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    
+    
+}
+body{
+    background-image: url(https://media.craiyon.com/2025-04-02/kVy6fUQrROuYaETUeLq82g.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+@font-face{
+    font-family: 'My3DFont';
+    src: url(Howdy\ Koala.otf) format('truetype');
+}
+h1{
+    font-family: 'My3DFont', sans-serif;
+    font-size:4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5vh;
+    text-align: center;
+
+  
+    
+}
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 4vw;
+}
+.circle-container{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin: 5vh;
+    flex-wrap: wrap;
+}
+.container1, .container2{
+    height: 210px;
+    width: 230px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+img{
+    height: 210px;
+    width: 230px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+    
+    
+}
